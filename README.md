@@ -12,6 +12,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
+<img width="1022" height="746" alt="NL_to_SQL" src="https://github.com/user-attachments/assets/3a335b9f-94ed-48a8-9c4e-578fca539090" />
+
 
 ## 📸 Demo
 
