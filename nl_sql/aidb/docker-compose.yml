@@ -1,0 +1,19 @@
+services:
+  pg-vector-db:
+    image: pgvector/pgvector:pg18
+    container_name: pg-vector-db
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: banking_db
+    ports:
+      - "5432:5432"
+    volumes:
+      # Persistent storage for the database
+      - pgvector_data:/var/lib/postgresql
+      # Mount the init script to run automatically on first boot
+      #- ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+volumes:
+  pgvector_data:
