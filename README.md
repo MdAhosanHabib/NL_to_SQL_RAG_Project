@@ -1,4 +1,4 @@
-# 🏦 Financial NL-to-SQL RAG
+# 🏦 NL-to-SQL RAG for Financial AI Agent
 
 > Ask questions about your banking database in plain English — powered by **LangGraph**, **Ollama (Gemma4)**, and **PGVector** running entirely on local infrastructure.
 
